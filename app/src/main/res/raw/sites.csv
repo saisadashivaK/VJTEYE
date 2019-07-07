@@ -1,0 +1,13 @@
+Site,Depatmentwise-id,id,Unique-id,Description
+Physics Department Board,1,1,11,No description
+Low Temperature Plasma Processing Laboratory,1,2,12,No description
+Chemistry Lab back entrance,2,1,21,No description
+Maths Department,3,1,31,No description
+Smithy,4,1,41,No description
+Fitting,4,2,42,No description
+Carpentry,4,3,43,No description
+Cryogenics lab,4,4,44,No description
+Engineering Mechanics Lab,5,1,51,No description
+CP Ma’am Cabin,6,1,61,No description
+Computer Department Lab,6,2,62,No description
+BEE Lab,7,1,71,No description

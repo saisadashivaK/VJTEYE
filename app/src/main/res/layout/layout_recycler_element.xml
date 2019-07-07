@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:text="No Title"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp">
+            <ScrollView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:text="@string/siteInfo"
+                    android:background="@drawable/bg"
+                    android:id="@+id/siteInfo"
+
+
+                    />
+            </ScrollView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/button_remove"
+        android:layout_width="89dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+
+        app:srcCompat="@drawable/ic_clear_black_24dp" />
+
+
+</androidx.cardview.widget.CardView>
+

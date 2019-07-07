@@ -1,0 +1,15 @@
+Design doc for VJTEYE App
+//
+
+//
+Classes:
+1) Department - Sites, Department-name, Department-id, addSite(),getters, setters, static count. 
+2) Sites - Site-name, Site-id, Site unique-id = Department-id + Site-id, Site-description, static count.
+3) Note(Nice to have/Useless) - note-date, note-content
+4) SiteDetector - gets site-id from web server
+UI design:
+Two Layouts-
+1st layout will have Camera
+2nd layout will have Recycler View
+3rd layout is invisible and becomes visible on clicking description
+
